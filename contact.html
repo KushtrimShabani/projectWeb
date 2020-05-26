@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contacts</title>
+        <link rel = "stylesheet" type = "text/css" href="contact.css"/>
+        <!-- Font Awesome - ICON's -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+     </head>
+    <body>
+            <div id=header >
+
+                   
+                    <div class=container >
+                       <div class=logo>
+                           <img id = "logo" src="\logonobackround.png" alt="logo">
+                       </div>
+       
+                       <div class=menu>
+                           <ul>
+                                <li><a href="WebProject.html">Home</a></li>
+                               <li><a href="about.html">About</a></li>
+                               <li><a href="contact.html">Contact</a></li>
+                               <li><a href="login.html">Login</a></li>
+                               <li><a onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sing Up</a> </li>
+                               </ul>
+                      </div> 
+                    </div>
+                </div> 
+             
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+        <i style = "font-size: 100px;padding: 20px;margin-left:0px; " class = "fa fa-user"></i>
+    </a>
+  
+      <h1>Create your Account</h1>
+
+
+      <p>to continue to Autoseller</p>
+      <hr>
+      <label for="email"><b>Email</b></label>   <br>
+      <input type="text" placeholder="Enter Email" name="email" required>
+      <br>
+
+      <label for="psw"><b>Password</b></label>   <br>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <br>
+      <label for="psw-repeat"><b>Repeat Password</b></label>   <br>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      <br>
+      <p><span><input type = "checkbox" checked="checked" > </span> I agree to the terms of service </p>
+
+      <div class="clearfix"> 
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+      <p>_______________________OR_________________________</p>
+      <div class= "face">
+      <button type="submit" class="facebtn">Loggin whith facebook</button>
+        </div>
+  </form>
+</div>
+                <script>
+                  // Get the modal
+                  var modal = document.getElementById('id01');
+                  
+                  // When the user clicks anywhere outside of the modal, close it
+                  window.onclick = function(event) {
+                    if (event.target == modal) {
+                      modal.style.display = "none";
+                    }
+                  }
+                  </script>
+<!-- Pjesa e Header -->
+
+<div class = "photo">
+    <img src="contactwallpaper.jpg" alt="wallpaper" width=100%; height="780px">
+<div class= "textphoto"><h1>Contact</h1>  </div>
+</div>
+<div class="manu">
+<div class = "contactform">
+<h2>Contact us</h2>
+          <div class= "error">
+        </div>
+          <div id="error_message">
+            </div>
+              <form action="" id="myform" onsubmit = "return validate();">
+                  <div class="input_field">
+                      <input type="text" placeholder="Name" id="name">
+                  </div>
+                  <div class="input_field">
+                      <input type="text" placeholder="Subject" id="subject">
+                  </div>
+                  <div class="input_field">
+                      <input type="text" placeholder="Phone" id="phone">
+                  </div>
+                  <div class="input_field">
+                      <input type="text" placeholder="Email" id="email">
+                  </div>
+                  <div class="input_field">
+                      <textarea placeholder="Message" id="message" rows = "4" cols="53"></textarea>
+              </div>
+               
+             <div class="btn">
+                   <input type="submit" value="Send Form" style="   border: 0px;
+                   margin-top: 15px;
+                   padding: 10px;   
+                   text-align: left ;
+                   letter-spacing: 1px;
+                   font-weight: bold;
+                   border-radius: 25px;
+                   cursor: pointer;" >
+                </div>
+             </form>
+            </div>
+             <div class="google">
+              
+               <h2>Find us</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.133698205105!2d21.145138553565296!3d42.65852209575121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549ef74e4096bf%3A0xce8375f2eace35f9!2sBlloku%20C2%20H.%209-10-11%2C%20Ahmet%20Krasniqi%2C%20Prishtin%C3%AB!5e0!3m2!1sen!2srs!4v1590120034710!5m2!1sen!2srs" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+
+          </div>
+             
+
+
+
+
+
+
+<!--Pjesa Footerit-->
+
+<div class= "footer" style = "width:100%;background-color: black !important;height:250px;">
+        <div class = "container" style = "width:1200px;margin: 0 auto;">
+         
+            <div class="box" style = "width:400px;float:left;color:white;">
+              <h3 class="footer-heading mb-4">About Us</h3>
+              <p style="color:rgb(159, 159, 160)">A group with 3 members with different knowledge about software, engineering, digital marketing and design</p>
+             
+            </div>
+            <div class="box" style = "width:400px;float:left;color:white;">
+                      <h3 class="footer-heading mb-4">Quick Links</h3>
+                      <ul class="list-unstyled">
+                      <li><a href="about.html" style="color:rgb(159, 159, 160);">About Us</a></li>
+                      <li><a href="offers" style="color:rgb(159, 159, 160);">Offers</a></li>
+                      <li><a href="WebProject.html" style="color:rgb(159, 159, 160);">Home</a></li>
+                      <li><a href="contact" style="color:rgb(159, 159, 160);">Contact Us</a></li>
+                      </ul>
+                    
+                </div>
+       
+                <div class="box" style = "width:400px;float:left;color:white;">
+                  <h3 class="mt-4">© AutoSeller Team</h3>
+                     </div>
+               
+        </div>
+      </div>
+       
+       
+  
+<script>
+   function validate(){
+  var name = document.getElementById("name").value;
+  var subject = document.getElementById("subject").value;
+  var phone = document.getElementById("phone").value;
+  var email = document.getElementById("email").value;
+  var message = document.getElementById("message").value;
+  var error_message = document.getElementById("error_message");
+  
+  error_message.style.padding = "20px";
+  
+  var text;
+  if(name.length < 2){
+    text = "Please Enter valid Name";
+    error_message.innerHTML = text;
+    return false;
+  }
+  if(subject.length < 5){
+    text = "Please Enter Correct Subject";
+    error_message.innerHTML = text;
+    return false;
+  }
+  if(isNaN(phone) || phone.length != 9){
+    text = "Please Enter valid Phone Number";
+    error_message.innerHTML = text;
+    return false;
+  }
+  if(email.indexOf("@") == -1 || email.length < 6){
+    text = "Please Enter valid Email";
+    error_message.innerHTML = text;
+    return false;
+  }
+  if(message.length <= 20){
+    text = "Please Enter More Than 20 Characters";
+    error_message.innerHTML = text;
+    return false;
+  }
+  alert(" Send Successfully !");
+  return true;
+}
+  </script>
+    </body>
+</html>

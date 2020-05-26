@@ -1,0 +1,297 @@
+<!doctype html>
+<html>
+    <head>
+            <title>
+                Projekti ne " Web " 
+            </title>
+            <link rel = "stylesheet" type = "text/css" href="CssForProject.css"/>
+            <!-- Font Awesome - ICON's -->
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    </head>
+
+    <body>
+            <div id=header >
+
+                   
+                    <div class=container >
+                       <div class=logo>
+                           <img id = "logo" src="\logonobackround.png" alt="logo">
+                       </div>
+       
+                       <div class=menu>
+                           <ul>
+                                <li><a href="WebProject.html">Home</a></li>
+                               <li><a href="about.html">About</a></li>
+                               <li><a href="contact.html">Contact</a></li>
+                               <li><a href="login.html">Login</a></li>
+                               <li><a onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sing Up</a> </li>
+                               </ul>
+                      </div> 
+                    </div>
+                </div> 
+             
+                <div id="id01" class="modal">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <form class="modal-content" action="/action_page.php">
+                          <i style = "font-size: 100px;padding: 20px;margin-left:0px; " class = "fa fa-user"></i>
+                      </a>
+                    
+                        <h1>Create your Account</h1>
+                  
+                  
+                        <p>to continue to Autoseller</p>
+                        <hr>
+                        <label for="email"><b>Email</b></label>   <br>
+                        <input type="text" placeholder="Enter Email" name="email" required>
+                        <br>
+                  
+                        <label for="psw"><b>Password</b></label>   <br>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        <br>
+                        <label for="psw-repeat"><b>Repeat Password</b></label>   <br>
+                        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                        <br>
+                        <p><span><input type = "checkbox" checked="checked" > </span> I agree to the terms of service </p>
+                  
+                        <div class="clearfix"> 
+                          <button type="submit" class="signupbtn">Sign Up</button>
+                        </div>
+                        <p>_______________________OR_________________________</p>
+                        <div class= "face">
+                        <button type="submit" class="facebtn">Loggin whith facebook</button>
+                          </div>
+                    </form>
+                  </div>
+                                  <script>
+                                    // Get the modal
+                                    var modal = document.getElementById('id01');
+                                    
+                                    // When the user clicks anywhere outside of the modal, close it
+                                    window.onclick = function(event) {
+                                      if (event.target == modal) {
+                                        modal.style.display = "none";
+                                      }
+                                    }
+                                    </script>
+
+           <div id="fotot">
+                 <div class="slideshow-container">
+
+                     <div class="mySlides fade">
+                         <div class="numbertext">1 / 3</div>
+                          <img src="rolls1.png" style="width:100%">
+                         </div>
+                            
+                     <div class="mySlides fade">
+                          <div class="numbertext">2 / 3</div>
+                       <img src="bently1.png" style="width:100%">
+                          </div>
+                            
+                            <div class="mySlides fade">
+                              <div class="numbertext">3 / 3</div>
+                              <img src="bmw1.jpg" style="width:100%">
+                            </div>
+                            
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            
+                            </div>
+                            <br>
+                    
+                       <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span> 
+                            <span class="dot" onclick="currentSlide(2)"></span> 
+                            <span class="dot" onclick="currentSlide(3)"></span> 
+                          </div>
+                          
+                        </div>
+                      <div id = "overlay" style = "text-align: center;">
+                        <div class="col">
+                            
+                                <i style = "font-size: 100px;padding: 20px;margin-left:0px; color :black ; " class = "fa fa-calendar-check"></i>
+                              </a>
+                              <h2>Termine Online </h2>
+                              <div class="rreth"><b>Tel : </b> +386 (0) 45 156 156 <br>
+                                <b>E-mail : </b>autoseller@gmail.com
+
+                              </div>
+
+                        </div>
+                        <div class="col">
+                          
+                             <i style = "font-size: 100px;padding: 20px;margin-left:0px; color :black ; " class = "fa fa-cogs"></i>
+                              </a>
+                              <h2>Servis </h2>
+                              <div class="rreth">Servis ne te gjitha pjeset e makinave<br> me aparaturave te teknologjise se fundit</div>
+
+                        </div>
+                        <div class="col">
+                            
+                                <i style = "font-size: 100px;padding: 20px;margin-left:0px; color :black ; " class = "fa fa-truck-loading"></i>
+                              </a>
+                              <h2>Pjese Kembimi </h2>
+                              <div class="rreth">Pjese per te gjitha llojet e makinave <br> me cmim shume te voolitshem</div>
+
+                        </div>
+                        <div class="col">
+                           
+                                <i style = "font-size: 100px;padding: 20px;margin-left:0px; color :black ; " class = "fa fa-handshake "></i>
+                              </a>
+                              <h2>Bartja e Vetures </h2>
+                              <div class="rreth">Bartja e veturave ne te gjithe teritorin <br> e Kosoves. 24/7</div>
+
+                        </div>
+                      </div>
+                       <div id=content>
+                       <div class="gallery">
+                            <a target="_blank" href= "Rolls.jpg">
+                              <img src="Rolls.jpg" alt="Cinque Terre" width="400" height="200">
+                            </a>
+                            <div class="desc">Rrolls-Roice ,2020 modeli : Wraith </div>
+                          </div>
+                          
+                          <div class="gallery">
+                            <a target="_blank" href="bently.jpg">
+                              <img src="bently.jpg" alt="Forest" width="400" height="200">
+                            </a>
+                            <div class="desc">Bently , 2020    modeli : Mulliner </div>
+                          </div>
+                          
+                          <div class="gallery">
+                            <a target="_blank" href="Ferrari.jpg">
+                              <img src="Ferrari.jpg" alt="Northern Lights" width="400" height="200">
+                            </a>
+                            <div class="desc">Ferrari , 2020 modeli : F8 tributo</div>
+                          </div>
+                          
+                          <div class="gallery">
+                            <a target="_blank" href="Lamborgini.jpg">
+                              <img src="Lamborgini.jpg" alt="Mountains" width="400" height="200">
+                            </a>
+                            <div class="desc">Lamborgini , 2020 modeli : Sian</div>
+                          </div>
+                          <div class="gallery">
+                           <a target="_blank" href="audi.jpg">
+                                  <img src="audi.jpg" alt="Mountains" width="400" height="200">
+                                </a>
+                                <div class="desc">Audi , 2019 modeli A8</div>
+                              </div>
+                          <div class="gallery">
+                          <a target="_blank" href="bmw2.jpg">
+                              <img src="bmw2.jpg" alt="Mountains" width="400" height="200">
+                            </a>
+                               <div class="desc">BMW , 2018 modeli :M5</div>
+                              </div>
+                              <div class="gallery">
+                            <a target="_blank" href="rang.jpg">
+                               <img src="rang.jpg" alt="Mountains" width="400" height="200">
+                              </a>
+                              <div class="desc">Range Rover , 2018 modeli : Evoque</div>
+                                 </div>
+                                <div class="gallery">
+                                  <a target="_blank" href="bmw3.jpg">
+                                  <img src="bmw3.jpg" alt="Mountains" width="400" height="200">
+                                  </a >
+                           <div class="desc">BMW , 2018 modeli : i3</div>
+                                        </div>
+                                  <div class="gallery">
+                                   <a target="_blank" href="mercedesg.jpg">
+                                    <img src="mercedesg.jpg" alt="Mountains" width="400" height="200">
+                                              </a>
+                                    <div class="desc">Mercedes-Benz , 2019 modeli : G-class</div>
+                                      </div>
+                              <div class="gallery">
+                                      <a target="_blank" href="mercedesamg.jpeg">
+                                     <img src="mercedesamg.jpeg" alt="Mountains" width="400" height="200">
+                                        </a>
+                                        <div class="desc">Merceedes-Bnez , 2019 modeli: GT -amg</div>
+                                      </div>
+                                           <div class="gallery">
+                                     <a target="_blank" href="volvo.jpg">
+                                      <img src="volvo.jpg" alt="Mountains" width="400" height="200">                                
+                                           </a>
+                                  <div class="desc">Volvo , 2020 modeli : S90 </div>
+                                  </div>
+                                      <div class="gallery">
+                                   <a target="_blank" href="mercedes.jpg">
+                              <img src="mercedes.jpg" alt="Mountains" width="400" height="200">
+                                    </a>
+                                  <div class="desc">Mercedes-Benz , 2018 modeli : E-clas</div>
+                                  </div>
+                                      <div class="gallery">
+                                 <a target="_blank" href="audia7.jpg">
+                                     <img src="audi.jpg" alt="Mountains" width="400" height="200">
+                             </a>
+                                   <div class="desc">Audi , 2020 modeli :A7 </div>
+                                </div>
+                          <div class="gallery">
+                         <a target="_blank" href="bmw4.jpg">
+                                  <img src="bmw4.jpg" alt="Mountains" width="400" height="200">
+                                </a>
+                               <div class="desc">BMW , 2018 modeli : Serie 8</div>
+                                </div>
+                      </div>
+                        
+
+                    
+                        <div class= "footer" style = "width:100%;background-color: black !important;height:250px;">
+                        <div class = "container" style = "width:1200px;margin: 0 auto;">
+                         
+                            <div class="box" style = "width:400px;float:left;color:white;">
+                              <h3 class="footer-heading mb-4">About Us</h3>
+                              <p style="color:rgb(159, 159, 160)">A group with 3 members with different knowledge about software, engineering, digital marketing and design</p>
+                             
+                            </div>
+                            <div class="box" style = "width:400px;float:left;color:white;">
+                                      <h3 class="footer-heading mb-4">Quick Links</h3>
+                                      <ul class="list-unstyled">
+                                      <li><a href="about.html" style="color:rgb(159, 159, 160);">About Us</a></li>
+                                      <li><a href="offers" style="color:rgb(159, 159, 160);">Offers</a></li>
+                                      <li><a href="WebProject.html" style="color:rgb(159, 159, 160);">Home</a></li>
+                                      <li><a href="contact.html" style="color:rgb(159, 159, 160);">Contact Us</a></li>
+                                      </ul>
+                                    
+                                </div>
+                       
+                                <div class="box" style = "width:400px;float:left;color:white;">
+                                  <h3 class="mt-4">© AutoSeller Team</h3>
+                                     </div>
+                               
+                        </div>
+                       </div>   
+                           
+              
+    </body>
+
+
+        </html>
+
+        <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                }
+                </script>
+                

@@ -1,0 +1,312 @@
+
+body{
+    font-family: Work Sans, -apple-system, BlinkMacSystemFont, Segoe UI;
+      margin: 0px;
+      padding : 0px ;
+      
+     
+  }  
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 80%;
+    padding: 18px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* Add a background color when the inputs get focus */
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .b{
+    text-align: right ;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+  color:white;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  
+  /* Float signup buttons and add an equal width */
+  .signupbtn {
+    text-align: center;
+    background-color: #1c8adb;
+    float: center;
+    width: 50%;
+  }
+  .facebtn{
+    text-align: center;
+    background-color: #1c49db;
+    float: center;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #333;
+    padding-top: 50px;
+  }
+  .modal-content p {
+    text-align: center;
+  }
+  .modal-content h1 {
+    text-align: center;
+  }
+  
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15px auto 10px auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+    height: 850PX;
+  }
+  .modal-content i{
+    text-align: center;
+   width: 95%;   
+   
+  }
+  
+  
+  .modal-content input,label{
+    margin-left: 7%;
+  }
+  
+  /* Style the horizontal ruler */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+   
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #f44336;
+    cursor: pointer;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .clearfix {
+    text-align: center;
+  }
+  .face{
+    text-align: center;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 70%;
+    }
+  }
+  
+  #header { 
+      /* background: url(rolls.jpg) no-repeat center; 
+          background-size: cover;*/
+          width : 100% ;
+          margin: 0px;
+          padding-bottom:20px ;
+          position: relative;
+          height : 60px;       
+          z-index: 1;
+      }
+      .container{
+          width: 100% ; 
+          margin: 0px ;
+          padding: 0px;
+          height: 150 px;
+      }
+      
+      .logo{   
+          float: left ;
+      text-align: left;
+  }
+      .menu{
+  float :right;
+     height:40 px;
+      }
+      
+      #logo{
+          width:150px;
+          padding: 10px;   
+          
+      }
+      .menu ul  { 
+          
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+         
+      }
+      .menu ul li  { 
+         float: left;
+          display: line;
+          flex-grow: 4 ;
+          text-align: center;
+      
+      }
+      .menu ul li a {
+          display: block;
+          text-align: center;
+          color: white;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+       .menu ul li a:hover {
+          background-color: #aaa;
+        }
+        /*Header */
+        .container{
+          width: 1200px ; 
+          margin: 0 auto ;
+       }
+       .photo{
+          margin-top: -120px;
+       }
+       .photo img{
+           
+          margin-top: -120px;
+         
+       }
+       .textphoto{
+           color:white ;
+          font-size: 65px;
+          line-height: 94px;
+          position: absolute;
+          bottom: 150px;
+          right: 106px;
+          font-family: Georgia, 'Times New Roman', Times, serif
+          
+       }
+.manu{
+    margin: 0 auto;
+    height: 800px;
+}
+  
+.contactform{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-right:0px;
+    margin-left: 100px ;
+    width: 450px;
+    height: 500px;
+    padding: 100px;
+    float:left;
+}
+.google{
+float:right;
+width: 450px;
+height: 500px;
+padding: 0px;
+margin-right: 300px;
+margin-top: 75px;
+}
+
+       .wrapper{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        max-width: 350px;
+        width: 50%;
+        background: #fff;
+        padding: 25px;
+        border-radius: 5px;
+        box-shadow: 4px 4px 2px rgba(254,236,164,1); 
+      }
+      
+     
+      
+      .wrapper .input_field{
+        margin-bottom: 10px;
+      }
+      
+      .wrapper .input_field input[type="text"],
+      .wrapper textarea{
+        border: 1px solid #e0e0e0;
+        width: 100%;
+        padding: 10px;
+      }
+      
+      .wrapper textarea{
+        resize: none;
+        height: 80px;
+      }
+      
+      #error_message{
+        margin-bottom: 1px;
+        width: 295px;
+        background : white;
+        text-align: center;
+        font-size: 14px;
+        transition: all 0.5s ease;
+      }
+
+
+       
+     .container1 {
+      font-family: Helvetica,Arial,sans-serif;
+         width: 40%;
+         height: 400px;
+        margin: 0 auto ;
+        margin-top: 20px;
+     }
+      .cm{
+      margin-top: 5%;
+      width : 40%;
+      float: left;
+      text-align: right;
+      padding-right: 5%;
+      }
+      
+      .rb{   
+       width : 50%;
+      right: 100px;    
+      float :right ; 
+      text-align: left;
+      
+      
+      }
